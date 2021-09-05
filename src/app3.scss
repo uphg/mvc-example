@@ -1,0 +1,10 @@
+.square {
+  cursor: pointer;
+  width: 10vw;
+  height: 10vw;
+  background-color: #ebeef5;
+  transition: transform 1s;
+  &.active {
+    transform: translateX(35vw)
+  }
+}

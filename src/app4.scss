@@ -1,0 +1,22 @@
+#app4 .circle {
+  cursor: pointer;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 20px;
+  border: 1px solid #dcdfe6;
+  &.active {
+    animation: change 1s infinite alternate linear;
+  }
+}
+@keyframes change {
+  0% {
+    /* background-color: #fcdada; */
+    /* #ec0101 // 红色 */
+    /* #ffc93c // 黄色 */
+    /* #52de97 // 绿色 */
+    background-color: #ffa5a5;
+  }
+  100% {
+    background-color: #3d7ea6;
+  }
+}

@@ -1,0 +1,42 @@
+/* 公共样式 */
+body {
+  background-color: #ebe8ed;
+}
+
+button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  border-radius: 2px;
+  border: 1px solid #dcdfe6;
+  background-color: #fff;
+  padding: 4px 12px;
+  &:hover, &:focus {
+    color: #409eff;
+    border-color: #c6e2ff;
+    background-color: #ecf5ff;
+  }
+  &:active {
+    color: #3a8ee6;
+    border-color: #3a8ee6;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+.block {
+  width: 50vw;
+  height: 50vh;
+  border: 1px solid #f1edec;
+  padding: 20px;
+}
