@@ -1,0 +1,17 @@
+.todo {
+  // border: 1px solid #eaecef;
+  padding: 20px;
+  background-color: #5f73c1;
+}
+.todo-item {
+  display: flex;
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}
+.todo-label {
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #fff;
+}
