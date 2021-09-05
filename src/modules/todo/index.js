@@ -59,7 +59,6 @@ const view = {
     )
   ),
   render() {
-    console.log('重新 render')
     $(view.el).html(view.template)
   }
 }
